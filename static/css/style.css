@@ -10,6 +10,7 @@
 }
 
 
+
                 
 
 
@@ -20,7 +21,7 @@
   width: auto;
   object-fit: cover;
   height: 100vh;
-  padding-bottom: 3%;
+  padding-bottom: 7%;
 background-position:center center ;
  
  
@@ -33,6 +34,7 @@ background-position:center center ;
   object-fit: cover;
   height:100vh;
   background-position:center center ;
+  
 
 
 }
@@ -555,7 +557,7 @@ background-position:center center ;
            float:right;
            margin-right:10%;
            margin-top: 30%;
-            
+            visibility: hidden;
           }
         
             .text{

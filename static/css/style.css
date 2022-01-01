@@ -8,6 +8,9 @@
   background: transparent;
  
 }
+ @import url('http://fonts.cdnfonts.com/css/edge-of-the-galaxy');
+
+                
 
 
 @media only screen and (min-width: 1200px) and (max-width: 5000px) {
@@ -98,6 +101,7 @@ background-position:center center ;
   top: 1.25em;
   padding-top: 0.5vw ;
   padding-bottom: 0.5vw ;
+
    
   
 }
@@ -611,4 +615,5 @@ background-position:center center ;
                 display: table;
               }
             }
-  
+
+       

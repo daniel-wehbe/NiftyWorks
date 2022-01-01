@@ -125,7 +125,21 @@ background-position:center center ;
 
 
 
-
+.img-rocket {
+  position:absolute; 
+  left:26%; top:3.8%;
+   transform: rotate(-20deg);
+   animation-name: example;
+   animation-duration: 4s;
+   z-index:1;
+   width: 4%;
+   
+  }
+  
+  @keyframes example {
+    0%   { left:0%; top:100%;}
+    100% { left:26%; top:3.8%;}
+  }
 
 .img-container {
   position:relative;

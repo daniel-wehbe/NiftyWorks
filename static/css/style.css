@@ -239,15 +239,12 @@ background-position:center center ;
       }
       
       .div2{
-        position: inherit;
         background-size:cover ;
         margin: 0%;
         width: auto;
         object-fit: cover;
         height:100vh;
         background-position:center center ;
-        background-attachment: fixed;
-        
       
       }
       
@@ -470,15 +467,13 @@ background-position:center center ;
             
             .div2{
               background-size:cover ;
+              position: absolute;
               margin: 0%;
-              width: auto;
+              width: 100vw;
               object-fit: cover;
-              height:120vh;
-              background-position:center center ;
-              background-attachment: fixed;
-              display: flex;
-              overflow:scroll;
-              
+              height:100%;
+              background-position: center center;
+              padding-bottom: 5%;
               
             
             }
@@ -632,6 +627,7 @@ background-position:center center ;
                     width: 50%;
                     margin-top: 100%;
                     right:25%;
+                    padding-bottom: 10%;
                    
                     
                   }

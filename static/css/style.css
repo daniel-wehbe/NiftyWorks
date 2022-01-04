@@ -438,7 +438,6 @@ background-position:center center ;
               padding: 0;
               border: 0;
               outline: 0;
-             
               vertical-align: baseline;
               background: transparent;
               overflow-x: hidden;
@@ -460,12 +459,13 @@ background-position:center center ;
               margin: 0%;
               width: auto;
               object-fit: cover;
-              height:100vh;
+              height:100%;
               padding-bottom: 2%;
               background-position:center center ;
               background-attachment: fixed;
               z-index: 0;
-         
+              overflow: hidden;
+             
             }
             
             .div2{
@@ -473,10 +473,12 @@ background-position:center center ;
               margin: 0%;
               width: auto;
               object-fit: cover;
-              height:50rem;
+              height:120vh;
               background-position:center center ;
               background-attachment: fixed;
               display: flex;
+              overflow:scroll;
+              
               
             
             }
@@ -575,7 +577,8 @@ background-position:center center ;
                top: -12em;
                margin-left: 10%;
                padding-bottom: 3%;
-              }
+
+            }
             
             
             
@@ -610,13 +613,9 @@ background-position:center center ;
                    color:rgb(235, 203, 19) ;
                    font-size: 7vw;
                    display: inline-block;
-                   justify-content: center;
-                   margin-top: 2%;
+                   justify-content:start;
+                   top:-9rem;
                    margin-left: 6%;
-                   top:-25% ;
-                   bottom: 0%;
-              
-                
                    text-align-last:center;
                 
                   }

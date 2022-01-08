@@ -27,6 +27,8 @@ background-position:center center ;
  
 }
 
+
+
 .div2{
   background-size:cover ;
   margin: 0%;
@@ -218,6 +220,68 @@ background-position:center center ;
         display: table;
       }
     }
+    .social-footer {
+      padding: 1rem;
+      background-color: rgb(27, 30, 93);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+     
+    }
+
+    .footer-text{
+      font-size: 3vw;
+      color: rgb(123, 172, 172);
+      font-family: 'Edge of the Galaxy', sans-serif;
+      text-align:center;
+      margin-right: 2%;
+     
+    }
+
+
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      margin-left: 0%;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+      margin-right: auto;
+     
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    
+   
+    }
+
+    .fa-discord {
+      background: #91243f;
+    
+      padding: 12.8px;
+      font-size: 30px;
+      width: 30px;
+      height: 30px;
+      padding-left:27px;
+      padding-right:27px;
+      
+      right: 40vw;
+      
+   
+    }
+    
+
+    
+    
+    
 
 
 

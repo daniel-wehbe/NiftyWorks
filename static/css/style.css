@@ -277,6 +277,17 @@ background-position:center center ;
       
    
     }
+    .footer-text-2{
+      font-size: 3vw;
+      color: rgb(123, 172, 172);
+      font-family: 'Edge of the Galaxy', sans-serif;
+      text-align:center;
+      position:absolute;
+      margin:38%
+      
+   
+     
+    }
     
 
     

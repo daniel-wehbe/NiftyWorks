@@ -120,7 +120,7 @@ background-position:center center ;
   font-size: 2vw;
   border-radius: 0.5em;
   width: 10%;
-  margin-left: 45%;
+  margin-left: 36%;
   margin-top: 25%;
   border-width: 1em;
 }
@@ -353,7 +353,7 @@ background-position:center center ;
         width: 6.5%;
         height: auto;
         margin-left: 73%;
-        margin-top: -2%;
+        margin-top: -2.5%;
         max-width: 100%;
         align-self: top; 
       
@@ -366,8 +366,8 @@ background-position:center center ;
         position: absolute;
         width: 7%;
         height: auto;
-        margin-left: 63%;
-        margin-top:0% ;
+        margin-left: 63.9%;
+        margin-top:-0.5% ;
         float:left;
         max-width: 100%;
       }
@@ -401,7 +401,7 @@ background-position:center center ;
         font-size: 2vw;
         border-radius: 0.5em;
         width: 10%;
-        margin-left: 45%;
+        margin-left: 36.7%;
         margin-top: 30%;
         border-width: 1em;
       }
@@ -502,8 +502,70 @@ background-position:center center ;
             }
           }
 
+          
+    .footer-text{
+      font-size: 3vw;
+      color: rgb(123, 172, 172);
+      font-family: 'Edge of the Galaxy', sans-serif;
+      text-align:center;
+      margin-right: 2%;
+     
+    }
 
-          @media (max-width: 900px) {
+
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      margin-left: 0%;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+      margin-right: auto;
+     
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    
+   
+    }
+
+    .fa-discord {
+      background: #91243f;
+    
+      padding: 12.8px;
+      font-size: 30px;
+      width: 30px;
+      height: 30px;
+      padding-left:27px;
+      padding-right:27px;
+      
+      right: 40vw;
+      
+   
+    }
+    .footer-text-2{
+      font-size: 3vw;
+      color: rgb(123, 172, 172);
+      font-family: 'Edge of the Galaxy', sans-serif;
+      text-align:center;
+      position:absolute;
+      margin:38%
+      
+   
+     
+    }
+    
+
+
+@media (max-width: 900px) {
 
             * {
               margin: 0;
@@ -592,7 +654,8 @@ background-position:center center ;
               margin-top:0% ;
               float:left;
               max-width: 100%;
-              visibility: hidden;
+              visibility:hidden;
+              
             }
             
             
@@ -731,4 +794,76 @@ background-position:center center ;
                     clear: both;
                     display: table;
                   }
-                }
+
+
+                  
+                  
+
+
+                  .fa {
+                    position:absolute;
+                    padding: 20px;
+                    font-size: 30px;
+                    width: 50px;
+                    text-align: center;
+                    text-decoration: none;
+                    margin: 5px 2px;
+                    margin-left: 0%;
+                    margin-top:250%;
+                    visibility:hidden;
+                  }
+
+                  .fa-twitter {
+                    background: #55ACEE;
+                    color: white;
+                    margin-right: auto;
+                    visibility:hidden;
+                  
+                  }
+
+                  .fa-instagram {
+                    background: #125688;
+                    color: white;
+                    visibility:hidden;
+                  
+                
+                  }
+
+                  .fa-discord {
+                    background: #91243f;
+                  
+                    padding: 12.8px;
+                    font-size: 30px;
+                    width: 30px;
+                    height: 30px;
+                    padding-left:27px;
+                    padding-right:27px;
+                    z-index: 10;
+                    visibility:hidden;
+                    
+                
+                  }
+
+                  .footer-text{
+                    font-size: 30px;
+                    color: rgb(123, 172, 172);
+                    font-family: 'Edge of the Galaxy', sans-serif;
+                    text-align:center;
+                    margin-right: 2%;
+                    visibility:hidden;
+       
+                    }
+                  .footer-text-2{
+                    font-size: 30px;
+                    color: rgb(123, 172, 172);
+                    font-family: 'Edge of the Galaxy', sans-serif;
+                    position:relative;
+                    z-index: 1;
+                    visibility:hidden;
+                   
+                  
+                  }
+    
+     }
+
+                
